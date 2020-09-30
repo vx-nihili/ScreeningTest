@@ -1,3 +1,11 @@
+"""
+ClassRosterSearch.py
+
+This particular program takes two arguments from the terminal, a command and a csv file, and prints the names
+(FirstName LastName) that fit the requested data.
+
+Created by Jailan Sabet
+"""
 import re, csv, sys
 
 # Final list to return names
@@ -31,7 +39,7 @@ if command == '-name':
         #reinitialize found variable to none
         fd == None
 
-# Search through emails   
+# Search through emails
 elif command == '-email':
     for student in studentsData:
         # Search for pattern - if not found, fd == None
@@ -44,7 +52,7 @@ elif command == '-email':
         #reinitialize found variable to none
         fd == None
 
-# Search through gpa    
+# Search through gpa
 elif command == '-gpa':
     sign = pat[-1] #Plus or minus
     gpaNum = float(pat[0:len(pat)-1]) #gpa number for comparison
