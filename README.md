@@ -7,4 +7,4 @@ This particular project takes two arguments from the terminal, a command and a c
 | -------------------------------------------------------- | ----------------------------------------- |
 | `-name <pattern>`  | This command finds any student names that contains the pattern and outputs the students' full names.<br> This is case insensitive and looks at both the first and last names. |
 | `-email <pattern>` | This command searches for emails that contain the pattern and outputs the students' corresponding names.                                              |
-| `-gpa <gpa>[+-]`   | This command finds students that have a higher (if '+') or lower (if '-') than the inputted gpa number<br> and outputs the full name of the students. |
+| `-gpa <gpa>[+-]`   | This command finds students that have a higher (if '+') or lower (if '-') than the inputted gpa number and outputs<br> the full name of the students. |
