@@ -5,6 +5,6 @@ This particular project takes two arguments from the terminal, a command and a c
 
 |      **Command**                                         |               **Description**             |
 | -------------------------------------------------------- | ----------------------------------------- |
-| `-name <pattern>`  | Finds any names that contains the pattern and the person's full name. This is case insensitive and looks at<br> both the first and last names. |
-| `-email <pattern>` | Finds emails that contains the pattern and outputs their corresponding full name.                                                          |
-| `-gpa <gpa>[+-]`   | Finds students that have a higher (if '+') or lower (if '-') then the inputted gpa number and outputs the full <br>name of the students.        |
+| `-name <pattern>`  | This command finds any student names that contains the pattern and outputs the students' full names.<br> This is case insensitive and looks at both the first and last names. |
+| `-email <pattern>` | This command searches for emails that contain the pattern and outputs the students' <br>corresponding names.                                                 |
+| `-gpa <gpa>[+-]`   | This command finds students that have a higher (if '+') or lower (if '-') than the inputted gpa number and outputs the<br> full name of the students.        |
