@@ -8,7 +8,7 @@ This particular program takes two arguments from the terminal, a command and a c
 | -------------------------------------------------------- | ----------------------------------------- |
 | `"-name <pattern>"`  | This command finds any student names that contains the pattern and prints the<br> students' full names. This is case insensitive and looks at both the first and last names. |
 | `"-email <pattern>"` | This command searches for emails that contain the pattern and prints the students' <br>corresponding names. This search is also case insensitive.    |
-| `"-gpa <gpa>[+-]"`   | This command finds students that have a higher (if '+') or lower (if '-') gpa than the inputted <br>gpa number and prints the full name of the students. |
+| `"-gpa <gpa>[+-]"`   | This command finds students that have a higher (if '+') or lower (if '-') gpa than<br> the inputted <br>gpa number and prints the full name of the students. |
 
 No dependencies, other than python itself, are needed to run the code. Enter the following in the terminal to clone the repository so the code can be run locally.
 ```
