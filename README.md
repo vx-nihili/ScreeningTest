@@ -35,4 +35,4 @@ Siena Johnson
 Javon Johnson
 Ainsley Johnson
 ```
-While this particular csv test file does not have headers, the program will work with any csv file, regardless if file contains headers or not, as long as the csv file is formatted correctly (i.e. FirstName, LastName, email, gpa).
+While this csv test file does not have included headers, the program will work with any csv file, regardless if file contains headers or not, as long as the csv file is formatted correctly (i.e. FirstName, LastName, email, gpa).
