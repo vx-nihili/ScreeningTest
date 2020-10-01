@@ -22,14 +22,16 @@ To get an idea of how this program will work, a test csv file has been included 
 python ClassRosterSearch.py "-name johnson" testFile.csv
 ```
 The following names should be printed:
-> Ryker Johnson
-> Harry Johnson
-> Raphael Johnson
-> Pablo Johnson
-> Ricardo Johnson
-> Sarah Johnson
-> Lilianna Johnson
-> Libby Johnson
-> Siena Johnson
-> Javon Johnson
-> Ainsley Johnson
+```
+Ryker Johnson
+Harry Johnson
+Raphael Johnson
+Pablo Johnson
+Ricardo Johnson
+Sarah Johnson
+Lilianna Johnson
+Libby Johnson
+Siena Johnson
+Javon Johnson
+Ainsley Johnson
+```
