@@ -12,14 +12,14 @@ This program takes two arguments from the terminal, a command and a csv file, an
 
 No dependencies, other than python itself, are needed to run the code. Enter the following in the terminal to clone the repository so the code can be run locally.
 ```
-git clone https://github.com/vx-nihili/ScreeningTest.git
-cd ScreeningTest
+$ git clone https://github.com/vx-nihili/ScreeningTest.git
+$ cd ScreeningTest
 ```
 
 ## Demo
 To get an idea of how this program will work, [testFile.csv](https://github.com/vx-nihili/ScreeningTest/blob/master/testFile.csv) has been included with 10,000 randomly generated names, emails, and gpa scores. Once the repository has been cloned, enter the following code to try the program. Note that any command following the directions above can be used with this file, this is simply an example.
 ```
-python ClassRosterSearch.py "-name johnson" testFile.csv
+$ python ClassRosterSearch.py "-name johnson" testFile.csv
 ```
 The following names should be printed:
 ```
