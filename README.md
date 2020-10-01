@@ -17,7 +17,7 @@ cd ScreeningTest
 ```
 
 ## Demo
-To get an idea of how this program will work, a test csv file has been included with 10000 randomly generated names, emails, and gpa scores. Once the repository has been cloned, enter the following code to try the program. Note that any command following the directions above can be used with this file, this is simply an example.
+To get an idea of how this program will work, [testFile.csv](https://github.com/vx-nihili/ScreeningTest/blob/master/testFile.csv) has been included with 10000 randomly generated names, emails, and gpa scores. Once the repository has been cloned, enter the following code to try the program. Note that any command following the directions above can be used with this file, this is simply an example.
 ```
 python ClassRosterSearch.py "-name johnson" testFile.csv
 ```
