@@ -1,11 +1,9 @@
-"""
-ClassRosterSearch.py
-
-This particular program takes two arguments from the terminal, a command and a csv file, and prints the names
-(FirstName LastName) that fit the requested data.
-
-Created by Jailan Sabet
-"""
+# ClassRosterSearch.py
+#
+# This particular program takes two arguments from the terminal, a command and a csv file, and prints the names
+# (FirstName LastName) that fit the requested data.
+#
+# Created by Jailan Sabet
 
 import re, csv, sys
 
@@ -18,7 +16,7 @@ inFile = open(csvFile)
 inReader = csv.reader(inFile)
 studentsData= list(inReader)
 
-# Check csv data, such as included headers or incorrect formatting, by checking emails have an @ symbol and the gpa is a number
+# Check csv data, such as included header or incorrect formatting, by checking emails have an @ symbol
 emailAt = re.compile(r'@')
 if emailAt.search(studentsData[0][2]) == None:
     if emailAt.search(studentsData[1][2]) == None:
