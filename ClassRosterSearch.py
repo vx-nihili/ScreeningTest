@@ -6,6 +6,7 @@ This particular program takes two arguments from the terminal, a command and a c
 
 Created by Jailan Sabet
 """
+
 import re, csv, sys
 
 # Final list to return names
@@ -16,6 +17,16 @@ csvFile = sys.argv[2]
 inFile = open(csvFile)
 inReader = csv.reader(inFile)
 studentsData= list(inReader)
+
+# Check csv data, such as included headers or incorrect formatting, by checking emails have an @ symbol and the gpa is a number
+emailAt = re.compile(r'@')
+if emailAt.search(studentsData[0][2]) == None:
+    if emailAt.search(studentsData[1][2]) == None:
+        # error, incorrect formatting
+        raise Exception("CSV file has incorrect formatting")
+    else:
+        # csv header deleted in list
+        del studentsData[0]
 
 # Save command
 inp = sys.argv[1]
