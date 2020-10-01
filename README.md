@@ -39,6 +39,6 @@ While this csv test file does not have included headers, the program will work w
 
 ## References
 1. Sweigart, A. (2020). *Automate the boring stuff with Python: Practical programming for total beginners.* San Francisco, CA: No Starch Press.
-    - Found [here](https://automatetheboringstuff.com/). Used to check syntax and library modules that would be helpful for this program.
+    - Found [here](https://automatetheboringstuff.com/). Used to check syntax and modules that would be helpful for this program.
 2. The random generator of everything. (2013, May). Retrieved September 30, 2020, from https://www.randomlists.com/
     - Found [here](https://www.randomlists.com/). Used to randomly generate names, emails, and gpas for the test file.
