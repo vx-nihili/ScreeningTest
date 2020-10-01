@@ -77,7 +77,7 @@ elif command == '-gpa':
 
 # Faulty command
 else:
-    raise Exception('Command not found.')
+    raise Exception('Invalid command.')
 
 # Print Names
 for name in finalList:
