@@ -21,7 +21,7 @@ emailAt = re.compile(r'@')
 if emailAt.search(studentsData[0][2]) == None:
     if emailAt.search(studentsData[1][2]) == None:
         # error, incorrect formatting
-        raise Exception("CSV file has incorrect formatting")
+        raise Exception('CSV file has incorrect formatting.')
     else:
         # csv header deleted in list
         del studentsData[0]
@@ -77,7 +77,7 @@ elif command == '-gpa':
 
 # Faulty command
 else:
-    print('Command not found.')
+    raise Exception('Command not found.')
 
 # Print Names
 for name in finalList:
